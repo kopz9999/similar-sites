@@ -1,0 +1,12 @@
+#similarsites {
+  list-style-image: url("chrome://xul-similar-sites/content/icon-small.png");
+}
+
+#similarsites-popup .panel-arrowcontent {
+  padding: 0px;
+}
+
+#popup-iframe {
+  height: 600px;
+  width: 620px;
+}

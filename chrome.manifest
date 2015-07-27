@@ -1,0 +1,5 @@
+content xul-similar-sites content/
+style chrome://global/content/customizeToolbar.xul chrome://xul-similar-sites/content/button.css
+
+# Firefox
+overlay	chrome://browser/content/browser.xul chrome://xul-similar-sites/content/button.xul
