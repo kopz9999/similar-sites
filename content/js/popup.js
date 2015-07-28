@@ -6,6 +6,14 @@ $("body").on("click", ".item-detail", function () {
     window.open(url, "_blank");
     $(document).click();
 });
+
+$("body").on("click", "a", function (e) {
+  e.preventDefault();
+  if (this.href) {
+    window.parent.SimilarSitesApp.instance.openTab( this.href );
+  }
+});
+
 /*
 $("body").on("click", ".item-detail", function () {
     openUrl($(this).attr("data-url"));

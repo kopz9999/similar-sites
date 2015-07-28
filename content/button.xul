@@ -22,14 +22,14 @@
   <toolbarbutton id="similarsites"
     label="Similar Sites"
     tooltiptext="click to see similar sites"
-    oncommand="SimiSitesApp.instance.handleButtonClick()"
+    oncommand="SimilarSitesApp.instance.handleButtonClick()"
     class="toolbarbutton-1 chromeclass-toolbar-additional xul-similar-sites"
     />
 
   <popupset id="mainPopupSet">
     <panel id="similarsites-popup" type="arrow" level="parent">
       <vbox id="popup-box" align="top" width="620" height="600">
-        <iframe id="popup-iframe" flex="0" />
+        <browser id="popup-iframe" flex="0" type="chrome" />
       </vbox>
     </panel>
   </popupset>

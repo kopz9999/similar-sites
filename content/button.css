@@ -1,5 +1,9 @@
 #similarsites {
-  list-style-image: url("chrome://xul-similar-sites/content/icon-small.png");
+  list-style-image: url("chrome://xul-similar-sites/content/icon.png");
+}
+
+#similarsites .toolbarbutton-icon {
+  width: 18px;
 }
 
 #similarsites-popup .panel-arrowcontent {
